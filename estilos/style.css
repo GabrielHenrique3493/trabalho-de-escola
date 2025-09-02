@@ -44,17 +44,18 @@ div.pagina2 > a:hover {
 }
 
 div.titulo {
+    max-width: 100vw;
     height: 300px;
     text-align: center;
     padding-top: 50px;
     background-image: linear-gradient(to bottom, #025446, white);
     color: rgb(255, 255, 255);
-    text-shadow: 2px 5px 10px #025446;
+    text-shadow: 5px 4.5px 8px #025446;
 }
 
 div.titulo > h1 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 3em;
+    font-size: 2.8em;
     font-weight: bolder;
 }
 
