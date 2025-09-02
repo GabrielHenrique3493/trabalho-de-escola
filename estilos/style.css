@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: sla ;
+    src: url(../fontes/SantioleScript_PERSONAL_USE_ONLY.otf);
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    width: 100%;
+}
+
+
+section{
+    font-size: 2em;
+}
+
+section > div.pagina2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+div.pagina2 > a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #025446;
+    border: 5px solid #025446;
+    padding: 10px 30px;
+    border-radius: 40px;
+    
+}
+
+div.pagina2 > a:hover {
+    color: rgb(1, 255, 22) ;
+    background-color: rgb(2, 43, 19);
+}
+
+div.titulo {
+    height: 300px;
+    text-align: center;
+    padding-top: 50px;
+    background-image: linear-gradient(to bottom, #025446, white);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 5px 10px #025446;
+}
+
+div.titulo > h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+main {
+    width: 1200px;
+    margin: auto;
+    box-shadow: 2px 3px 33px rgba(0, 0, 0, 0.664);
+    padding: 30px;
+}
+
+main > p {
+    padding: 1.7em;
+    color: #025446;
+    font-size: large;
+    font-weight: bold;
+}
+
+main > h2 {
+    background-image: linear-gradient(to right,#006a4791, white );
+    color: #006a20;
+    font-size: 2.5em;
+    
+}
+strong {
+    color: #006a20;
+}
+
+aside {
+    background-color: #025446;
+    border-radius: 8px;
+    box-shadow: 2px 3px 33px black;
+}
+
+aside > h3 {
+    padding: 10px;
+    color: white;
+    font-variant: small-caps;
+}
+
+
+aside > ul {
+    padding: 30px;
+}
+
+aside > ul > li {
+    color: white
+}
+
+footer {
+    text-align: center;
+    background-color: #006a20;
+    padding: 20px;
+}
+
+footer > p {
+     color: white;
+}
+
+main > .perguntas {
+    color: #025446;
+    padding: 10px;
+}
+
+div.escondido > p {
+    display: none;
+}
+
+div.escondido:hover > p {
+    display: block;
+}
+
+
+.resposta {
+    color: red;
+}
+
+main > a.volta {
+    color: #025446;
+    text-decoration: none;
+    font-size: 1.2em;
+}
